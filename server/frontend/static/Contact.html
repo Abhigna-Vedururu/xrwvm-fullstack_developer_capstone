@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+
+  <style>
+    .contact-card {
+      width: 80%;
+      margin: auto;
+      margin-top: 5%;
+      border-radius: 15px;
+      border: 2px solid #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-banner img {
+      width: 80%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .contact-info-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .contact-icon img {
+      width: 300px;
+      height: auto;
+    }
+
+    .contact-text {
+      text-align: left;
+      color: #003366;
+      font-size: 1rem;
+      max-width: 500px;
+    }
+
+    .contact-text p {
+      margin-bottom: 10px;
+    }
+
+    .contact-text a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .contact-text a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar {
+      height: 1in;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+  <h2 style="padding-right: 5%; padding-left: 10px;">Dealerships</h2>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item"><a class="nav-link" href="/" style="font-size: larger;">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="/about" style="font-size: larger;">About Us</a></li>
+      <li class="nav-item"><a class="nav-link active" href="/contact" style="font-size: larger;">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<div class="contact-card">
+  <div class="contact-banner" style="position: relative;">
+    <img src="/static/car_dealership.jpg" alt="Dealership Banner">
+  </div>
+
+  <div class="contact-info-section">
+    <div class="contact-icon">
+      <img src="/static/headset_icon.png" alt="Support Icon">
+    </div>
+    <div class="contact-text">
+      <p><strong style="color: #1a73e8;">Contact Customer Service</strong><br>support@bestcars.com</p>
+      <p><strong style="color: #1a73e8;">Contact our National Advertising team</strong><br>NationalSales@bestcars.com</p>
+      <p><strong style="color: #1a73e8;">Contact our Public Relations team</strong><br>PR@bestcars.com</p>
+      <p><strong style="color: #1a73e8;">Contact the bestcars.com offices</strong><br>312-611-1111</p>
+      <p><strong style="color: #1a73e8;">Become a bestcars.com car dealer</strong><br>
+        Visit <a href="https://growwithbestcars.com" target="_blank">growwithbestcars.com</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
